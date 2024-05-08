@@ -18,3 +18,5 @@ def solution(s, target):
 
     dfs(0, "", 0, 0)
     return res
+
+print(solution('9876543210', 200))
